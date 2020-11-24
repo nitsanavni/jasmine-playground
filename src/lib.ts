@@ -1,1 +1,3 @@
-export const text = "hello there!";
+import { upperCase } from "lodash";
+
+export const text = upperCase("hello there!");
