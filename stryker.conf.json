@@ -1,0 +1,10 @@
+{
+    "$schema": "./node_modules/@stryker-mutator/core/schema/stryker-schema.json",
+    "packageManager": "npm",
+    "reporters": ["html", "clear-text", "progress"],
+    "testRunner": "command",
+    "coverageAnalysis": "off",
+    "checkers": ["typescript"],
+    "concurrency": 1,
+    "thresholds": { "high": 99, "low": 95, "break": 90 }
+}
