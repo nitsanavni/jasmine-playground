@@ -1,5 +1,6 @@
 {
     "scripts": {
+        "clean": "git clean -dfx test src tsconfig.tsbuildinfo",
         "build": "tsc",
         "test": "jasmine test/**/*.js",
         "test:cover": "nyc jasmine test/**/*.js"
