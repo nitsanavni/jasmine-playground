@@ -3,7 +3,6 @@
         ".ts"
     ],
     "include": [
-        "test/**",
         "src/**"
     ],
     "exclude": [
