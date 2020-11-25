@@ -6,7 +6,8 @@
         "test:cover": "nyc jasmine test/**/*.js",
         "test:cover:tests": "nyc --include=src/** --include=test/** jasmine test/**/*.js",
         "test:watch": "echo 'test:watch' not implemented yet",
-        "build:watch": "echo 'build:watch' not implemented yet"
+        "build:watch": "echo 'build:watch' not implemented yet",
+        "test:mutation": "stryker run"
     },
     "devDependencies": {
         "@istanbuljs/nyc-config-typescript": "^1.0.1",

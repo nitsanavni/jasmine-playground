@@ -6,3 +6,4 @@ src/**/*.js.map
 .nyc_output/
 coverage/
 tsconfig.tsbuildinfo
+reports/

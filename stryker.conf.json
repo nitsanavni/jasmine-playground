@@ -3,6 +3,7 @@
     "packageManager": "npm",
     "reporters": ["html", "clear-text", "progress"],
     "testRunner": "command",
+    "buildCommand": "npm run build",
     "coverageAnalysis": "off",
     "checkers": ["typescript"],
     "concurrency": 1,
